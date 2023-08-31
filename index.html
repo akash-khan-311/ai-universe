@@ -39,7 +39,28 @@
           <div
             id="card-container"
             class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"
-          ></div>
+          >
+            <!-- You can open the modal using ID.showModal() method -->
+
+            <dialog id="show_modal_1" class="modal">
+              <form method="dialog" class="modal-box w-11/12 max-w-5xl">
+                <div id="modal-container"></div>
+
+                <div class="modal-action">
+                  <button class="btn">Close</button>
+                </div>
+              </form>
+            </dialog>
+          </div>
+        </div>
+        <div class="flex justify-center mx-auto">
+          <button
+            onclick="handleShowAll()"
+            id="see-more"
+            class="btn btn-secondary hidden"
+          >
+            See More
+          </button>
         </div>
       </section>
     </main>
