@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Tour</title>
+
+    <link rel="shortcut icon" href="./images/A.jpg" type="image/x-icon" />
+    <!-- Google Fonts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <style>
+    .card-bg {
+      background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    }
+  </style>
+  <body>
+    <header class="bg-gray-600 py-10">
+      <h2 class="text-6xl mb-5 text-white font-semibold text-center">
+        Ai Universe Hus
+      </h2>
+      <div class="flex justify-center">
+        <button class="btn btn-secondary">Sort by date</button>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="container mx-auto">
+          <div
+            id="card-container"
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5"
+          ></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="./revise.js"></script>
+  </body>
+</html>
